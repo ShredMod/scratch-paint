@@ -175,7 +175,7 @@ class FontDropdown extends React.Component {
                 onHoverSansSerif={this.handleChangeFontSansSerif}
                 onHoverSerif={this.handleChangeFontSerif}
                 onHoverApple={this.handleChangeFontApple}
-                onHoverApple={this.handleChangeFontDET}
+                onHoverDET={this.handleChangeFontDET}
                 onOpenDropdown={this.handleOpenDropdown}
             />
         );
