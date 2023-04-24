@@ -124,6 +124,7 @@ ModeToolsComponent.propTypes = {
     getFontStyle: PropTypes.func.isRequired,
     onChoose: PropTypes.func.isRequired,
     onClickOutsideDropdown: PropTypes.func,
+    onHoverApple: PropTypes.func,
     onHoverChinese: PropTypes.func,
     onHoverCurly: PropTypes.func,
     onHoverHandwriting: PropTypes.func,
