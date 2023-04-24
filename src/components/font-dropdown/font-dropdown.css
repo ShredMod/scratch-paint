@@ -1,6 +1,19 @@
 @import "../../css/colors.css";
 @import "../../css/units.css";
 
+@font-face {
+    font-family: "Determination Mono";
+    src: url('../../fonts/DTM-Mono.otf');
+}
+@font-face {
+    font-family: "Apple Kid";
+    src: url('../../fonts/apple_kid.ttf');
+}
+@font-face {
+    font-family: "Pixel NES";
+    src: url('../../fonts/Pixel_NES.otf');
+}
+
 .mod-menu-item {
     display: flex;
     margin: 0 -$grid-unit;
