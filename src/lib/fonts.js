@@ -9,7 +9,8 @@ const Fonts = {
     JAPANESE: '"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic"',
     KOREAN: 'Malgun Gothic',
     APPLEKID: 'Apple Kid',
-    DET: 'Determination Mono'
+    DET: 'Determination Mono',
+    NES: 'Pixel NES'
 };
 
 export default Fonts;

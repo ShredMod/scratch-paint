@@ -113,6 +113,15 @@ const ModeToolsComponent = props => (
                         {props.getFontName(Fonts.DET)}
                     </span>
                 </Button>
+                <Button
+                    className={classNames(styles.modMenuItem)}
+                    onClick={props.onChoose}
+                    onMouseOver={props.onHoverNES}
+                >
+                    <span className={styles.nes}>
+                        {props.getFontName(Fonts.NES)}
+                    </span>
+                </Button>
             </InputGroup>
         }
         ref={props.componentRef}
@@ -142,6 +151,7 @@ ModeToolsComponent.propTypes = {
     onHoverKorean: PropTypes.func,
     onHoverMarker: PropTypes.func,
     onHoverPixel: PropTypes.func,
+    onHoverNES: PropTypes.func,
     onHoverSansSerif: PropTypes.func,
     onHoverSerif: PropTypes.func,
     onOpenDropdown: PropTypes.func
