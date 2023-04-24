@@ -100,7 +100,7 @@ const ModeToolsComponent = props => (
                     onClick={props.onChoose}
                     onMouseOver={props.onHoverApple}
                 >
-                    <span className={styles.korean}>
+                    <span className={styles.apple}>
                         {props.getFontName(Fonts.APPLEKID)}
                     </span>
                 </Button>
