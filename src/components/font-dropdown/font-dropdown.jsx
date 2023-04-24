@@ -95,6 +95,15 @@ const ModeToolsComponent = props => (
                         {props.getFontName(Fonts.KOREAN)}
                     </span>
                 </Button>
+                <Button
+                    className={classNames(styles.modMenuItem)}
+                    onClick={props.onChoose}
+                    onMouseOver={props.onHoverApple}
+                >
+                    <span className={styles.korean}>
+                        {props.getFontName(Fonts.APPLEKID)}
+                    </span>
+                </Button>
             </InputGroup>
         }
         ref={props.componentRef}
