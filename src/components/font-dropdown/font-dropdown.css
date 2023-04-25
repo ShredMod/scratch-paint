@@ -1,18 +1,7 @@
 @import "../../css/colors.css";
 @import "../../css/units.css";
 
-@font-face {
-    font-family: "Determination Mono";
-    src: url('DTM-Mono.otf');
-}
-@font-face {
-    font-family: "Apple Kid";
-    src: url('apple_kid.ttf');
-}
-@font-face {
-    font-family: "Pixel NES";
-    src: url('Pixel_NES.otf');
-}
+
 
 .mod-menu-item {
     display: flex;
