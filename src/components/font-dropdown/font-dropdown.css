@@ -3,15 +3,15 @@
 
 @font-face {
     font-family: "Determination Mono";
-    src: url('../../fonts/DTM-Mono.otf');
+    src: url('DTM-Mono.otf');
 }
 @font-face {
     font-family: "Apple Kid";
-    src: url('../../fonts/apple_kid.ttf');
+    src: url('apple_kid.ttf');
 }
 @font-face {
     font-family: "Pixel NES";
-    src: url('../../fonts/Pixel_NES.otf');
+    src: url('Pixel_NES.otf');
 }
 
 .mod-menu-item {
